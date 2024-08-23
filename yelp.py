@@ -63,7 +63,6 @@ class SolarScraper:
             
             for element in company_elements:
                 try:
-                    # company_name = await element.get_attribute("name")
                     company_name = await element.text_content()
                     print(company_name)
                     if company_name:
@@ -100,7 +99,7 @@ class SolarScraper:
             company_names, company_urls = []
         
         company_data = list(zip(company_names, company_urls))
-        # print(f"len(company_data)-f{len(company_data)}")
+        print(f"len(company_data)-f{len(company_data)}")
         # Wait until the page is fully loaded
         await self.page.wait_for_load_state("load")
 
@@ -178,12 +177,12 @@ class SolarScraper:
                 if "About the Business" in content:
                     owner_tag = await self.page.query_selector('p.y-css-w3ea6v')
                     if owner_tag:
-                        # print("Found onwer_tag")
+                        print("Found onwer_tag")
                         # Do something with the element, for example, get its text content
                         business_owner = await owner_tag.inner_html()
                         if len(business_owner) < 4 or len(business_owner) > 20:
                             business_owner = ""
-                        # print(business_owner)
+                        print(business_owner)
                     else:
                         business_owner = "" 
                 else: 
@@ -259,12 +258,6 @@ class SolarScraper:
                     print("No more pages.")
                     break
 
-                # is_disabled = await next_button.get_attribute('disabled')
-                # if is_disabled == "":
-                #     print("Next page button is disabled or deactivated. Stopping.")
-                #     break
-
-                # is_disabled = await self.page.eval_on_selector(next_button, "button => button.disabled")
                 is_disabled = await next_button.get_properties('disabled')
                 is_disabled_value = await is_disabled.json_value()
                 if is_disabled_value:
