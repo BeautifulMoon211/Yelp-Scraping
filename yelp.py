@@ -52,7 +52,7 @@ class SolarScraper:
         except Exception as e:
             console.log(f"Error during browser initialization or navigation: {e}")
             raise
-        
+
     async def extract_data_from_page(self):
         company_names = []
         company_urls = []
@@ -289,8 +289,8 @@ class SolarScraper:
 
 async def main():
     solarscraper = SolarScraper()
-    business_type = "solar"
-    business_location = "California City, CA, United States"
+    business_type = "plumbing"
+    business_location = "Ville-Marie, Montreal, QC, Canada"
     await solarscraper.scrape(business_type, business_location)
 
 if __name__ == "__main__":
