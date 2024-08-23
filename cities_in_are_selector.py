@@ -3,12 +3,10 @@ import re
 import bisect
 from operator import itemgetter
 
-import asyncio
-from urllib.parse import unquote, urlencode, quote
+from urllib.parse import quote
 from playwright.async_api import async_playwright
 from rich.console import Console
 import time
-import json
 from urllib.parse import urlparse, parse_qs 
 import re
 
@@ -94,16 +92,16 @@ def final(points_list):
                     "city": city
                 })
 
-            # for i in parsed_xy:
-            #     if {"x": x, "y": y} == i:
-            #         print({"x": x, "y": y, "state": state, "city": city})
-            #         break                    
-            # parsed_xy.append({"x": x, "y": y})
+            for i in parsed_xy:
+                if {"x": x, "y": y} == i:
+                    print({"x": x, "y": y, "state": state, "city": city})
+                    break                    
+            parsed_xy.append({"x": x, "y": y})
 
-    # print("parsed_sc:", parsed_sc)
-    # print("parsed_data:", parsed_data)
-    # with open('result_.txt', 'a') as output:
-    #     output.write(str(parsed_data))
+    print("parsed_sc:", parsed_sc)
+    print("parsed_data:", parsed_data)
+    with open('result_.txt', 'a') as output:
+        output.write(str(parsed_data))
 
     tx, ty, bx, by = get_bound_points(points_list)
     print("Endpoints are ", tx, ty, bx, by)
@@ -166,8 +164,6 @@ class CityCoordinates:
         img_src = await self.page.get_attribute(img_selector, 'src')
 
         if img_src:  
-            # Parse the URL to extract the parameters  
-            # query = urlparse(img_src).query  
             return parse_map(img_src)
     
     async def scrape(self):
@@ -206,6 +202,3 @@ def main_mapURL():
 
 if __name__ == "__main__":
     main_mapURL()
-    # import asyncio
-    # loop = asyncio.get_event_loop()
-    # loop.run_until_complete(main_websiteURL())
