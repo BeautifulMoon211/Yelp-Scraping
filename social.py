@@ -11,20 +11,12 @@ def parse_each_line_to_dict(line):
         print(f"An error occurred while parsing line to dict: {e}")
         return None
 
-# def get_social_media_urls(page_content, patterns):
-#     # Join multiple patterns into a single regex pattern
-#     combined_pattern = '|'.join(patterns)
-#     regex = re.compile(combined_pattern)
-#     return regex.findall(page_content)
 def get_social_media_urls(page_content, pattern_list):
     for url in re.compile(pattern_list[1]).findall(page_content):
         if url == None:
             return {pattern_list[0]: ''}
         return {pattern_list[0]: url}
 
-# def get_gmail_url(page_content):
-#     for url in re.compile(r'mailto:%20([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})').findall(page_content):
-#         return url
 
 def get_gmail_url(page_content):
     for url in re.compile(r'mailto:%20([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})').findall(page_content):
@@ -63,11 +55,6 @@ def scrape(page_content):
     medias.append(facebook_url if facebook_url is not None else {"Facebook": ''})
     return medias
 
-    # # social_media_urls.append(get_gmail_url(content))
-    # social_media_urls = list(set(social_media_urls))
-
-    # return social_media_urls
-
 
 def main():
     with sync_playwright() as p:
@@ -98,12 +85,7 @@ def main():
                         print(f"An error occurred: {e}")
                     print(line_dict)
                     outfile.write(f"{str(line_dict)}\n")
-                    # finally:
-                    #     browser.close()
-
-                    # # Write the website to the output file
-                    # outfile.write(', '.join(scrape(content)))
-                    # outfile.write('\n')
+                    
         # Close the browser instance
         outfile.close()
         browser.close()
