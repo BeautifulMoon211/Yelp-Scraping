@@ -5,7 +5,7 @@
   </div><br>
 </a>
 
-This project is mainly used for scraping [Yelp.com](https://www.yelp.com/search?find_desc=Solar&find_loc=New+York%2C+NY%2C+United+States/) for getting information of Solar companies.
+>This project is mainly used to collect business and customer data from [Yelp.com](https://www.yelp.com/search?find_desc=Solar&find_loc=New+York%2C+NY%2C+United+States/) for getting information of Solar companies.
 
 ### Why is Yelp Important for Business?
 Yelp is essential for business because it allows customers to leave reviews and feedback about their experiences. This helps other potential customers make informed decisions about whether or not to patronize a particular business. In addition, companies can use Yelp to track their customer satisfaction levels and make necessary improvements.
@@ -29,23 +29,16 @@ So if you’re wondering whether or not Yelp is worth your time, the answer is y
 </a>
 
 ## Yelp Scraper
-You can scrape a bunch of comprehensive information of companies for specific field such as company name, website link, phone number, located address, owner name, provided services and several contact informations.
-```
-Name: Sunation Energy
-Website link: sunation.com
-Phone number: +1 (631) 892-7245
-Located address: 171 Remington Blvd Ronkonkoma, NY 11779
-Services offered:   EV charging stations
-                    Add solar panels
-                    Solar rooftop panel installation
-                    Solar system maintenance
-                    Add to existing system
-                    Solar system installation
-                    Solar shingle installation
-                    Solar system repair
-Owner name: Scott Maskin
-Supported area: [(40.727172, 73.814309), (40.582027, 73.769150), (40.582027, 73.423253), (40.609850, 71.856214), (41.290122, 71.856214), (41.290122, 73.497061), (40.922801, 73.769150), (40.752494, 73.814309), (40.727172, 73.814309)] (with coordinates from...)
-```
+> You can scrape a bunch of comprehensive information of companies for specific field such as company name, website link, phone number, located address, owner name, provided services and several contact informations.
+
+- *Name:* Sunation Energy
+- *Website link:* sunation.com
+- *Phone number:* +1 (631) 892-7245
+- *Located address:* 171 Remington Blvd Ronkonkoma, NY 11779
+- *Services offered:* EV charging stations, Add solar panels, Solar rooftop panel installation, Solar system maintenance, Add to existing system, Solar system installation, Solar shingle installation, Solar system repair
+- *Owner name:* Scott Maskin
+- *Supported area:* [(40.727172, 73.814309), (40.582027, 73.769150), (40.582027, 73.423253), (40.609850, 71.856214), (41.290122, 71.856214), (41.290122, 73.497061), (40.922801, 73.769150), (40.752494, 73.814309), (40.727172, 73.814309)] (with coordinates from...)
+
 
 
 | Number | Name          | Website           | Phone          | Address                    | Owner   |
@@ -58,7 +51,7 @@ Supported area: [(40.727172, 73.814309), (40.582027, 73.769150), (40.582027, 73.
 **Live Demo for Yelp Scraper is [here](https://www.loom.com/share/0ae6d558f6c94ba09b64bb1edf40a805?sid=0e0683fb-e212-4823-a84f-bfb120d3ac68)** 
 
 ## Cities Selector
-You can also get cities which located in service provided area.
+> You can also get cities which located in service provided area.
 
 ### Coordinates Finder
 You can get coordinates of cities using Google Search.
@@ -97,12 +90,12 @@ Cities are :  ['LARCHMONT', 'GREAT NECK ESTATES', 'KINGS POINT', 'MAMARONECK', '
 **Live Demo for Cities Selector is [here](https://www.loom.com/share/c77591a0281a43f492fd668c65aec76b?sid=8def12cc-94da-450e-8f8d-b11199969059)** 
 
 ## Wordpress Detector
-If you append `/wp-admin` or `/wp-login.php` to the website's URL and it takes you to a login page, it is likely a WordPress site. Check whether the modified path is valid or not.
+> If you append `/wp-admin` or `/wp-login.php` to the website's URL and it takes you to a login page, it is likely a WordPress site. Check whether the modified path is valid or not.
 
 **Live Demo for Wordpress Detector is [here](https://www.loom.com/share/c0b84d6d56204ad28f4480365eec2076?sid=b0eb5766-c288-4a3a-87d2-22de00298adc)** 
 
 ## Social Contact Scraper
-Parse any website and find the spicific pattern for social contact information. Scrape them as much as possible.
+> Parse any website and find the spicific pattern for social contact information. Scrape them as much as possible.
 ```
 Social contact information: https://www.youtube.com/@sunationenergy
                             https://www.instagram.com/sunationenergy
@@ -116,6 +109,12 @@ Social contact information: https://www.youtube.com/@sunationenergy
 ## Project Info
 ### Author 
 Sweem
+
+### Developers
+ - [Sweem](https://github.com/beautifulmoon211)
+ - [Johnson Takashi](https://github.com/HighAmbition211)
+ - [Justing Wong](https://github.com/webghost241)
+ - [Yuming Long](https://github.com/AI-General)
 
 ### Version
 1.0.0
@@ -139,5 +138,3 @@ This project is licensed under the MIT License - see teh [LICENSE](https://githu
     </a> 
     it and customize it to your needs!
 </h3>
-
-###  Thank you for the help with [Johnson Takashi](https://github.com/HighAmbition211), [Justin Wong](https://github.com/webghost241), and [Yuming Long](https://github.com/AI-General).
