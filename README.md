@@ -140,4 +140,4 @@ This project is licensed under the MIT License - see teh [LICENSE](https://githu
     it and customize it to your needs!
 </h3>
 
-###  Thank you for the help with [Johnson Takashi](https://github.com/HighAmbition211), [Justin Wong](https://github.com/webghost241), and [Yuming Long](https://github.com/AI-General).
+###  Thank you for the help with [Johnson Takashi](https://github.com/HighAmbition211), [Justin Wong](https://github.com/webghost241), and [Oliver](https://github.com/AI-General).
