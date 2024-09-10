@@ -1,11 +1,14 @@
 import asyncio
+import os
+from dotenv import load_dotenv
 from urllib.parse import unquote, urlencode, quote
 from playwright.async_api import async_playwright
 from rich.console import Console
 
+load_dotenv()
 console = Console()
 BASE_URL = "https://www.yelp.com"
-SCRAPERAPI_KEY = "775e1bbfb3db36b37f4c08136e4fefb6"  # Replace with your ScraperAPI key
+SCRAPERAPI_KEY = os.getenv('SCRAPERAPI_KEY')  # Replace with your ScraperAPI key
 SCRAPERAPI_ENDPOINT = "https://api.scraperapi.com/?api_key=" + SCRAPERAPI_KEY  # ScraperAPI endpoint
 
 class SolarScraper:
