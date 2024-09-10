@@ -12,6 +12,7 @@ from urllib.parse import urlparse, parse_qs
 
 load_dotenv()
 console = Console()
+
 BASE_URL = "https://www.yelp.com"
 SCRAPERAPI_KEY = os.getenv('SCRAPERAPI_KEY')  # Replace with your ScraperAPI key
 SCRAPERAPI_ENDPOINT = "https://api.scraperapi.com/?api_key=" + SCRAPERAPI_KEY  # ScraperAPI endpoint
