@@ -1,6 +1,7 @@
 from matplotlib.path import Path
 import re
-import bisect
+import os
+from dotenv import load_dotenv
 from operator import itemgetter
 
 from urllib.parse import quote
@@ -8,11 +9,11 @@ from playwright.async_api import async_playwright
 from rich.console import Console
 import time
 from urllib.parse import urlparse, parse_qs 
-import re
 
+load_dotenv()
 console = Console()
 BASE_URL = "https://www.yelp.com"
-SCRAPERAPI_KEY = "5895fb6ca5cef34e820cca3250e1ef0b"  # Replace with your ScraperAPI key
+SCRAPERAPI_KEY = os.getenv('SCRAPERAPI_KEY')  # Replace with your ScraperAPI key
 SCRAPERAPI_ENDPOINT = "https://api.scraperapi.com/?api_key=" + SCRAPERAPI_KEY  # ScraperAPI endpoint
 
 # websiteURL = input("Please enter the website URL: ")
