@@ -5,7 +5,7 @@
   </div><br>
 </a>
 
->This project is mainly used to collect business and customer data from [Yelp.com](https://www.yelp.com/search?find_desc=Solar&find_loc=New+York%2C+NY%2C+United+States/) for getting information of Solar companies.
+>This project is mainly used to collect business and customer data from Yelp.com for getting information of [Solar companies](https://www.yelp.com/search?find_desc=Solar&find_loc=New+York%2C+NY%2C+United+States/).
 
 ### Why is Yelp Important for Business?
 Yelp is essential for business because it allows customers to leave reviews and feedback about their experiences. This helps other potential customers make informed decisions about whether or not to patronize a particular business. In addition, companies can use Yelp to track their customer satisfaction levels and make necessary improvements.
@@ -22,11 +22,14 @@ Well, Yelp can be quite helpful for businesses. First, it’s a great way to get
 Yelp can also be a great way to get feedback from customers. You can see what people liked and didn’t like about your business and make changes accordingly. And if you do get a negative review, you can use it as an opportunity to improve your business.
 
 So if you’re wondering whether or not Yelp is worth your time, the answer is yes! It’s a great way to promote your business and get customer feedback.
-<a href="https://www.yelp.com/search?find_desc=Solar&find_loc=New+York%2C+NY%2C+United+States">
+<a href="https://www.enterpriseappstoday.com/stats/yelp-statistics.html">
   <div align="center">
     <img align-"center" src="https://media.licdn.com/dms/image/v2/D5612AQGuSurjRLKudA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1712069297537?e=2147483647&v=beta&t=v2UBQrYRFoEUhj979QRzWBQ52JbDFb62QIUnZljRz0U"/>
   </div>
 </a>
+I hope this blog will help you understand. - <a href="https://www.enterpriseappstoday.com/stats/yelp-statistics.html">
+  Yelp Statistics 2024 By Business Category, Star Rating Distribution, Visitors, Platform, Country and Consumers
+</a> 
 
 ## Yelp Scraper
 > You can scrape a bunch of comprehensive information of companies for specific field such as company name, website link, phone number, located address, owner name, provided services and several contact informations.
