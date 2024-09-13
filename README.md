@@ -128,7 +128,7 @@ This project is licensed under the MIT License - see teh [LICENSE](https://githu
 <h3>
     If you found this project useful or interesting, please consider giving it a 
     <a href="https://github.com/BeautifulMoon211/Yelp-Scraping">
-        <img src="https://camo.githubusercontent.com/180845d061c0e223ec293cc2fb1f01ed5a2ca248688b6682c851810d27489552/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4f624e547738557a7779364b512f67697068792e676966" style="width:25px"> 
+        <img src="https://raw.githubusercontent.com/HighAmbition211/HighAmbition211/refs/heads/auxiliary/others/star.gif" style="width:25px"> 
         Star
     </a>, or 
     <a href="https://github.com/BeautifulMoon211/">
