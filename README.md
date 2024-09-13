@@ -115,7 +115,7 @@ Sweem
 
 ### Developers
  - [Sweem](https://github.com/beautifulmoon211)
- - [Johnson Takashi](https://github.com/HighAmbition211)
+ - [Oliver](https://github.com/HighAmbition211)
  - [Justing Wong](https://github.com/webghost241)
  - [Yuming Long](https://github.com/AI-General)
 
@@ -136,7 +136,7 @@ This project is licensed under the MIT License - see teh [LICENSE](https://githu
     </a> 
     me.
     If you'd like to use this template, feel free to 
-    <a href="https://github.com/HighAmbition211/HighAmbition211/fork">
+    <a href="https://github.com/BeautifulMoon211/Yelp-Scraping/fork">
         Fork
     </a> 
     it and customize it to your needs!
