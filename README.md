@@ -115,7 +115,7 @@ Sweem
 
 ### Developers
  - [Sweem](https://github.com/beautifulmoon211)
- - [Oliver](https://github.com/HighAmbition211)
+ - [Johnson Takashi](https://github.com/HighAmbition211)
  - [Justing Wong](https://github.com/webghost241)
  - [Yuming Long](https://github.com/AI-General)
 
