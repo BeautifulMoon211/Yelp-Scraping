@@ -1,7 +1,7 @@
 <h1 align="center">Yelp-Scraping</h1>
 <a href="https://www.yelp.com">
   <div align="center">
-    <br><img align-"center" src="https://www.clipartmax.com/png/full/142-1429407_yelp-reviews-5-star-yelp-logo.png" width='300'/>
+    <br><img align-"center" src="https://raw.githubusercontent.com/BeautifulMoon211/Yelp-Scraping/refs/heads/auxiliary/yelp_logo.png" width='300'/>
   </div><br>
 </a>
 
@@ -24,7 +24,7 @@ Yelp can also be a great way to get feedback from customers. You can see what pe
 So if you’re wondering whether or not Yelp is worth your time, the answer is yes! It’s a great way to promote your business and get customer feedback.
 <a href="https://www.enterpriseappstoday.com/stats/yelp-statistics.html">
   <div align="center">
-    <img align-"center" src="https://media.licdn.com/dms/image/v2/D5612AQGuSurjRLKudA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1712069297537?e=2147483647&v=beta&t=v2UBQrYRFoEUhj979QRzWBQ52JbDFb62QIUnZljRz0U"/>
+    <img align-"center" src="https://raw.githubusercontent.com/BeautifulMoon211/Yelp-Scraping/refs/heads/auxiliary/yelp_back.jfif"/>
   </div>
 </a>
 I hope this blog will help you understand. - <a href="https://www.enterpriseappstoday.com/stats/yelp-statistics.html">
@@ -61,7 +61,7 @@ You can get coordinates of cities using Google Search.
 
 <a href="https://www.google.com/search?q=philadelphia+longitude+latitude">
   <div align="center">
-    <img align-"center" src="https://global.discourse-cdn.com/cesium/original/3X/c/9/c972c590712aa63d29009b11a4577efeedaa819c.png" width='80%'/>
+    <img align-"center" src="https://raw.githubusercontent.com/BeautifulMoon211/Yelp-Scraping/refs/heads/auxiliary/staticmap.png" width='80%'/>
   </div>
 </a>
 
@@ -81,7 +81,7 @@ Based on coordinates from Yelp Scraper and Coordinates Finder, let's find cities
 
 <a href="https://www.yelp.com/map/sunation-energy-ronkonkoma">
   </br><div align="center">
-    <img align-"center" src="https://maps.googleapis.com/maps/api/staticmap?size=315x150&sensor=false&client=gme-yelp&language=en&scale=1&path=color%3A0x1F8EFF70%7Cweight%3A2%7Cfillcolor%3A0x1F8EFF40%7C40.727172%2C-73.814309%7C40.582027%2C-73.769150%7C40.582027%2C-73.423253%7C40.609850%2C-71.856214%7C41.290122%2C-71.856214%7C41.290122%2C-73.497061%7C40.922801%2C-73.769150%7C40.752494%2C-73.814309%7C40.727172%2C-73.814309&markers=scale%3A1%7Cicon%3Ahttps%3A%2F%2Fyelp-images.s3.amazonaws.com%2Fassets%2Fmap-markers%2Fannotation_32x43.png%7C40.790157%2C-73.130497&signature=zBbAcfjde_skqiuiSu9wE2RiNRQ=" width='315px'/>
+    <img align-"center" src="https://raw.githubusercontent.com/BeautifulMoon211/Yelp-Scraping/refs/heads/auxiliary/coor_detect.png" width='315px'/>
   </div></br>
 </a>
 
