@@ -61,7 +61,7 @@ You can get coordinates of cities using Google Search.
 
 <a href="https://www.google.com/search?q=philadelphia+longitude+latitude">
   <div align="center">
-    <img align-"center" src="https://raw.githubusercontent.com/BeautifulMoon211/Yelp-Scraping/refs/heads/auxiliary/staticmap.png" width='80%'/>
+    <img align-"center" src="https://raw.githubusercontent.com/BeautifulMoon211/Yelp-Scraping/refs/heads/auxiliary/coor_detect.png" width='80%'/>
   </div>
 </a>
 
@@ -81,7 +81,7 @@ Based on coordinates from Yelp Scraper and Coordinates Finder, let's find cities
 
 <a href="https://www.yelp.com/map/sunation-energy-ronkonkoma">
   </br><div align="center">
-    <img align-"center" src="https://raw.githubusercontent.com/BeautifulMoon211/Yelp-Scraping/refs/heads/auxiliary/coor_detect.png" width='315px'/>
+    <img align-"center" src="https://raw.githubusercontent.com/BeautifulMoon211/Yelp-Scraping/refs/heads/auxiliary/staticmap.png" width='315px'/>
   </div></br>
 </a>
 
