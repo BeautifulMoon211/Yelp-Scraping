@@ -123,7 +123,7 @@ Sweem
 1.0.0
 
 ### License
-This project is licensed under the MIT License - see teh [LICENSE](https://github.com/BeautifulMoon211/Yelp-Scraping/blob/dev/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/BeautifulMoon211/Yelp-Scraping/blob/dev/LICENSE) file for details.
 
 <h3>
     If you found this project useful or interesting, please consider giving it a 
